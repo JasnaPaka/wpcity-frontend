@@ -1,0 +1,116 @@
+/* LINE LIST */
+#page.database .line_list {
+	margin-bottom: 47px;	text-align: left;
+}
+	#page.database .line_list li {
+		width: 100%;
+		min-height: 212px;
+		overflow: hidden;
+		border-top: 1px solid #cccccc;
+	}
+  
+  #page.database.discussion .line_list li {
+    padding: 0 0 15px 0;
+    height: 184px;
+  }
+  
+		#page.database .line_list li article div {
+			float: left;
+		}
+			#page.database .line_list li article div.img_block {
+				width: 30%;
+				position: relative;
+			}						#page.database .line_list li article div.img_block img {				max-width: 100%;				width: 100%;				height: auto;			}
+				#page.database .line_list li article div.img_block span.line_list_icon {
+					display: block;
+					position: absolute;
+					left: 13px;
+					top: 17px;
+					width: 40px;
+					height: 40px;
+				}
+					#page.database .line_list li article div.img_block span.line_list_icon.green {
+						background: white url('i/line_list_icon_green.png') center center no-repeat;
+					}
+      
+      #page.database.discussion .line_list li article div.img_block {    
+				width: 30%;
+			}          
+          
+			#page.database .line_list li article div.center_block {
+				width: 40%;
+				min-height: 212px;
+				border-right: 1px solid #cccccc;
+				padding: 0 36px 10px 36px;								text-align: left;
+			}
+				#page.database .line_list li article div.center_block h3 {
+					font-size: 19px;
+					line-height: 23px;
+					margin: 21px 0 12px 0;
+				}
+				#page.database .line_list li article div.center_block p {
+					font-size: 14px;
+					line-height: 20px;
+					height: 80px;
+					overflow: hidden;
+					color: #4d4d4d;
+				}
+        
+        #page.database.discussion .line_list li article div.center_block p {
+          height: auto;
+          overflow: visible;
+          color: #b3b3b3;
+          font-size: 12px;
+        }
+        
+         #page.database .line_list li article div.center_block p strong {
+          color: #4d4d4d;
+         }
+        
+				#page.database .line_list li article div.center_block .button {
+					margin: 8px 11px 0 0;
+					float: left;
+				}
+			#page.database .line_list li article div.right_block {
+				width: 220px;
+				height: 196px;
+				padding: 16px 0 0 30px;								text-align: left;
+			}
+      
+			#page.database.discussion .line_list li article div.right_block {
+				width: 30%;
+        height: 140px;
+        overflow: hidden;
+			}    
+      
+      #page.database.discussion .line_list li.nothumbnail article div.right_block {
+        width: 650px;
+      }  
+      
+				#page.database .line_list li article div.right_block h4 {
+					font-size: 14px;
+					line-height: 24px;
+					font-weight: 800;
+					color: #00af3f;
+				}
+				#page.database .line_list li article div.right_block p {
+					font-size: 14px;
+					line-height: 19px;
+					color: #4d4d4d;
+				}
+
+				#page.database.discussion .line_list li article div.right_block p {
+					font-size: 12px;
+					color: #b3b3b3;
+				}
+        
+				#page.database.discussion .line_list li article div.right_block p strong {
+					color: #4d4d4d;
+				}        
+
+				#page.database.discussion .line_list li article div.right_block p.content {
+					font-size: 14px;
+					line-height: 19px;
+					color: #4d4d4d;
+          margin: 10px 0 0 0;
+				} 												@media (max-width: 780px) { 	#page.database .line_list li article div.img_block { 		width: 40%;	}		#page.database .line_list li article div.center_block {		width: 60%;		border-right: 0;	}		#page.database .line_list li article div.right_block {		display: none;	}}@media (max-width: 630px) { 	#page.database .line_list li article div.img_block { 		display: none;	}		#page.database .line_list li article div.center_block {		width: 100%;	}	}

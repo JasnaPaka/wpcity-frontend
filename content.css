@@ -1,0 +1,464 @@
+.buttonGreen {
+    background-color:#00af3f;
+    padding:6px;
+    color:#fff;
+    cursor:pointer;
+    text-transform:uppercase
+}
+
+.buttonGreen:hover {
+    background-color:#4d4d4d
+}
+
+.twin {
+    display:inline-block;
+    vertical-align:top;
+    width:50%
+}
+
+#page .title h2 {
+    line-height:40px;
+    margin:20px 0
+}
+
+#page h1.titleUnderline {
+    color:#000;
+    text-decoration:underline;
+    font-size:2em;
+    margin-bottom:20px
+}
+
+#page h3.postTitle {
+    color:#00af3f;
+    font-size:19px;
+    line-height:23px;
+    padding-bottom:5px
+}
+
+#page.index a.button {
+    float:right;
+    border:2px solid #4d4d4d;
+    margin-top:-10px
+}
+
+#page.search a.button {
+  border: 0;
+  margin: 10px 0 0 5px;
+}
+
+#page.index.zpravy .title {
+    max-width:1030px;
+    margin:auto;
+    text-align:left
+}
+
+#page.index.zpravy .title h2 {
+    line-height:2.5em;
+    margin:0;
+    float:left
+}
+
+#page.search .title h2 {
+  float: none!important; 
+}
+
+#page.index.zpravy .rightMenu {
+    float:right
+}
+
+#page.index.zpravy .rightMenu span {
+    line-height:5.2em;
+    padding-right:20px;
+    margin-left:20px
+}
+
+#page.index.zpravy .rightMenu span:first-child {
+    font-size:14px;
+    font-weight:700
+}
+
+#page.index.zpravy hr {
+    border:0;
+    border-top:1px solid #ccc
+}
+
+#page .tags {
+    padding:0 20px 20px
+}
+
+#page .tags .tagsblock {
+    display:none
+}
+
+#page .tags span,#page .tags a {
+    background-color:#ccc;
+    color:#fff;
+    padding:0 10px;
+    line-height:2.5em;
+    cursor:pointer;
+    margin:0 0 4px;
+    display:inline-block
+}
+
+#page .tags span:hover,#page .tags a:hover,#page .tags span.active,#page .tags a.active {
+    background:#4d4d4d
+}
+
+#page.index.zpravy .post {
+    width:335px;
+    display:inline-block;
+    vertical-align:top;
+    margin:0 2px 45px 0;
+    float:none
+}
+
+#page.index.zpravy .post img {
+    width:100%;
+    max-height:210px
+}
+
+#page.index.zpravy .post h3 {
+    margin:15px 0 0;
+    font-size:20px
+}
+
+#page.index.zpravy .post p {
+    color:#ccc;
+    font-size:12px;
+    margin-top:5px;
+    line-height:13px
+}
+
+#page.index.zpravy .post p span {
+    color:#000;
+    padding-right:.5em
+}
+
+#page.index.zpravy .post span.meta {
+    font-size:12px;
+    padding:2px 0
+}
+
+#page.index.podnet .title {
+}
+
+#page.index.podnet h1 {
+    font-size:27px;
+    text-decoration:underline
+}
+
+#page.index.podnet .topMenu img {
+    background:url(i/flower.jpg) no-repeat center;
+    width:38px;
+    height:40px
+}
+
+#page.index.podnet .topMenu > div {
+    display:inline-block;
+    vertical-align:top
+}
+
+#page.index.podnet .topMenu > div:nth-child(1) {
+    width:50px
+}
+
+#page.index.podnet .topMenu > div:nth-child(2) {
+    width:200px
+}
+
+#page.index.podnet .topMenu > div:nth-child(3) {
+    width:200px
+}
+
+#page.index.podnet .topMenu > div:nth-child(4) {
+    width:150px
+}
+
+#page.index.podnet .topMenu > div:nth-child(5) {
+    width:150px
+}
+
+#page.index.podnet .topMenu h1 {
+    font-size:14px;
+    color:#00af3f;
+    margin:2px 0;
+    text-decoration:none
+}
+
+#page.index.podnet .topMenu h2 {
+    font-size:14px;
+    text-decoration:none;
+    margin:4px 0
+}
+
+#page.index.podnet .buttonsGreen > a {
+    display:inline-block;
+    vertical-align:top
+}
+
+#page.index.podnet .buttonsGreen {
+    margin-top:10px
+}
+
+#page.index.podnet .pictures,#page.index.podnet .text {
+    margin-top:35px
+}
+
+#page.index.podnet .pictures img {
+    margin-bottom:10px
+}
+
+#page.index.podnet .pictures .initiative_main_img img {
+    width:100%;
+    height:auto
+}
+
+#page.index.podnet .pictures img.last {
+}
+
+#page.index.podnet .text {
+    padding:20px
+}
+
+#page.index.podnet .text a {
+    color:#00af3f
+}
+
+#page.index.podnet .text p {
+    color:#000;
+    font-size:1em;
+    line-height:1.3em;
+    padding:2px 0
+}
+
+#page.index.podnet .text p:first-child {
+    color:#00af3f;
+    font-size:1.2em;
+    line-height:1.4em;
+    padding-bottom:20px
+}
+
+#page.index.podnet .text iframe {
+    height:25px;
+    width:100%
+}
+
+#page.index.podnet .socials {
+    margin-top:15px
+}
+
+#page.index.podnet .vyvoj {
+    background-color:#f2f2f2
+}
+
+#page.index.podnet .vyvoj > div {
+}
+
+#page.index.podnet .post {
+    float:none;
+    width:340px;
+    margin:0 2px 45px 0;
+    display:inline-block;
+    vertical-align:top
+}
+
+#page.index.podnet .post h3 {
+    margin:15px 0 0
+}
+
+#page.index.podnet .post p {
+    margin-top:6px;
+    margin-bottom:20px
+}
+
+#page.index.podnet .post .buttonGreen {
+    padding:4px 14px
+}
+
+#page.index .navrhy {
+    padding-top:30px;
+    background-color:#4d4d4d;
+    color:#fff
+}
+
+#page.index .navrhy h1 {
+    color:#fff
+}
+
+#page.index .navrhy .autor {
+    border-right:1px solid #ddd;
+    padding-right:15px;
+    margin-bottom:20px
+}
+
+#page.index .navrhy .dalsi {
+    padding-left:15px;
+    margin-bottom:20px
+}
+
+#page.index .navrhy p {
+    line-height:1.5em;
+    color:#fff
+}
+
+#page.index .attachText {
+    display:inline-block;
+    vertical-align:top;
+    color:#00af3f;
+    width:70px;
+    text-align:right;
+    margin-top:20px
+}
+
+#page.index .attachFiles {
+    display:inline-block;
+    vertical-align:top;
+    margin-left:20px;
+    margin-top:10px
+}
+
+#page.index .attachFiles a {
+    display:block;
+    padding-left:27px;
+    line-height:2.4em;
+    cursor:pointer;
+    font-size:.9em
+}
+
+#page.index .navrhy hr {
+    margin-top:20px;
+    border:0;
+    border-top:1px solid #ccc
+}
+
+#page.index .navrhy .dalsi > a {
+    color:#fff;
+    border-color:#fff
+}
+
+#page.index .komentar {
+    background-color:#f2f2f2;
+    color:#000
+}
+
+#page.index .komentar .inner,#page.index .diskuse .inner {
+    padding-top:40px
+}
+
+#page.index .box.first {
+    padding-right:5px
+}
+
+#page.index .box.middle {
+    padding:0 5px
+}
+
+#page.index .box.last {
+    padding-left:5px
+}
+
+#page.index .box span {
+    color:#ccc;
+    font-size:.9em
+}
+
+#page.index .box p {
+    font-size:14px;
+    line-height:20px;
+    margin-top:5px
+}
+
+#page.index .diskuse .inner {
+    padding-top:25px
+}
+
+#page.index .diskuse hr {
+    border:0;
+    border-top:1px solid #ccc;
+    margin-bottom:30px
+}
+
+#page.index .diskuse .prihlaseni {
+    display:inline-block;
+    vertical-align:top;
+    margin-left:30px
+}
+
+#page.index .diskuse.pridat .prihlaseni h3 {
+    width:60px;
+    color:#000;
+    line-height:2.5em;
+    display:inline-block
+}
+
+#page.index .diskuse .prihlaseni input {
+    font-size:1em;
+    line-height:2em;
+    width:300px;
+    text-indent:.5em;
+    height:35px
+}
+
+#page.index .diskuse.pridat .buttonGreen {
+    float:right;
+    padding:8px
+}
+
+.filePDFdark {
+    background:url(i/filePDFdark.png) no-repeat left
+}
+
+.fileJPGdark {
+    background:url(i/fileJPGdark.png) no-repeat left
+}
+
+.fileDOCdark {
+    background:url(i/fileDOCdark.png) no-repeat left
+}
+
+.filePDFlight {
+    background:url(i/filePDFlight.png) no-repeat left
+}
+
+.fileJPGlight {
+    background:url(i/fileJPGlight.png) no-repeat left
+}
+
+.filelight {
+    background:url(i/filelight.png) no-repeat left
+}
+
+/*** DEV ****/
+.blockWrapper {
+    margin-bottom:30px
+}
+
+.blockHalf,.blockThird {
+    position:relative
+}
+
+.blockHalf {
+    width:50%;
+    float:left
+}
+
+.blockThird {
+    width:33.33333%;
+    float:left
+}
+
+@media (max-width: 630px) {
+.blockHalf {
+    width:100%;
+    float:none;
+    margin-bottom:20px
+}
+}
+
+@media (max-width: 580px) {
+.blockThird {
+    width:100%;
+    float:none;
+    margin-bottom:20px
+}
+}
