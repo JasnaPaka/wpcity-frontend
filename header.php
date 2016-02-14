@@ -33,7 +33,7 @@
     TEMPLATE_URL = "<?php bloginfo('template_url') ?>";
     BID = <?php echo get_current_blog_id() ?>;
   </script>
-  
+  <script type='text/javascript' src='<?php bloginfo('template_url') ?>/js/jquery-1.7.2.min.js'></script>
   <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.MultiFile.pack.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.unveil.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/sprintf.js"></script>
