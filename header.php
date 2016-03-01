@@ -5,6 +5,8 @@
 		wp_redirect("/katalog/dilo/".$objectId."/");	
 	}
   }
+  
+  $SETTINGS = kv_settings2();
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -70,11 +72,14 @@
 				</form>
             </div>
             
-            <div class="separator"></div>
-  
+            <?php if (strlen($SETTINGS["profilFacebook"]) > 0) { ?>
+                <div class="separator"></div>
+            <?php } ?>
+                
             <div id="socials">
-              <a id="social_rss" href="<?php printf('%s/feed', get_bloginfo('url')); ?>"></a><a id="social_fb" target="_blank" href="https://www.facebook.com/groups/krizkyavetrelci/"></a>
-
+                <?php if (strlen($SETTINGS["profilFacebook"]) > 0) { ?>
+                    <a id="social_rss" href="<?php printf('%s/feed', get_bloginfo('url')); ?>"></a><a id="social_fb" target="_blank" href="<?php print($SETTINGS["profilFacebook"]) ?>"></a>
+                <?php } ?>
               <div id="newsletterpopup" class="menupopup">
               </div> 
 					

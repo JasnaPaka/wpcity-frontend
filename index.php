@@ -4,6 +4,7 @@
     $uploadDir = wp_upload_dir();
     $PAGE["pocet_del"] = kv_ObjektPocet();
     $PAGE["pocet_kategorii"] = kv_category_count();
+    $SETTINGS = kv_settings2();
 ?>
 
   <div id="page" class="index bleft titulni">
@@ -16,8 +17,8 @@
 		<h2>O projektu</h2>     
 
 		<p id="o-projektu">
-                    <img src="<?php bloginfo('template_url'); ?>/images/o-projektu-obr.jpg" alt="Obrázek k projektu" id="o-projektu-logo" /> 
-                    <?php print ($KV["projekt_info"]); ?>
+                    <img src="<?php print ($SETTINGS["obrazekProjektu"]) ?>" alt="Obrázek k projektu" id="o-projektu-logo" /> 
+                    <?php print ($SETTINGS["popisProjektu"]) ?>
 		</p>
 		
 		<div id="o-projektu-button">
