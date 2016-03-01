@@ -68,7 +68,7 @@
 		     
 		     <div id="picture-box">
 		     	<?php if ($fotografiePrim == null || $fotografiePrim->img_512 == null) { ?>
-		     		<img src="<?php bloginfo('template_url') ?>-child-krizkyavetrelci/images/foto-neni-512.png" alt="Fotografie není dostupná" 
+		     		<img src="<?php bloginfo('template_url') ?>/images/foto-neni-512.png" alt="Fotografie není dostupná" 
 		     			title="Fotografie není dostupná"  />		     	
 		     	<?php } else { 
 		     		$popis = $fotografiePrim->popis;
