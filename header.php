@@ -63,8 +63,8 @@
           <div id="header-top-right">
             
             <div id="search">
-				<form id="searchbox_000059552786512968692:qcvcek8b33y" action="https://www.google.com/cse">
-				    <input name="cx" value="000059552786512968692:qcvcek8b33y" type="hidden">
+				<form id="searchbox_<?php print($SETTINGS["vyhledavaniGoogleKlic"]) ?>" action="https://www.google.com/cse">
+				    <input name="cx" value="<?php print($SETTINGS["vyhledavaniGoogleKlic"]) ?>" type="hidden">
 				    <input name="cof" value="FORID:0" type="hidden">
 				    <input name="ie" value="utf-8" type="hidden">
 				    <input type="text" name="q" placeholder="Hledat...">

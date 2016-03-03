@@ -5,7 +5,7 @@ Aktuálně je zmapováno umístění <strong><?php echo $PAGE["pocet_del"] ?> <?
 </p>
 
 <p id="titulka-mapa-img"><a href="/mapa/" title="Přejít na mapu">
-        <img src="<?php bloginfo('template_url'); ?>/images/kv-mapa.jpg" alt="Mapa" /> 
+        <img src="<?php print ($SETTINGS["obrazekMapy"]) ?>" alt="Mapa" /> 
 </a></p>
 
 <div id="titulka-mapa-button">
